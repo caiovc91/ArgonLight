@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textAlignment="center"
-                android:text="MAIN DASHBOARD"
+                android:text="HOME"
                 android:textSize="24sp"/>
 
             <TextView
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/title"
                 android:layout_centerHorizontal="true"
-                android:text="RESUME"
+                android:text="RESUMO"
                 android:textSize="24sp"
                 android:gravity="center_horizontal"/>
 
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/lineChart"
                 android:layout_centerHorizontal="true"
-                android:text="RESUMO"
+                android:text="HISTÓRICO"
                 android:textAlignment="center"
                 android:textSize="24sp" />
 
@@ -66,16 +66,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="DATA 1: "/>
+                    android:text="Economia CO2: "/>
                 <TextView
-                    android:id="@+id/valueData1"
+                    android:id="@+id/valCarbon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="XPTO 400000.000000"
+                    android:text="valor CO2"
                     android:layout_gravity="center"
                     android:gravity="right"
-                    android:layout_marginHorizontal="40sp"/>
+                    android:layout_marginHorizontal="10sp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -89,16 +89,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="DATA 2: "/>
+                    android:text="Economia total "/>
                 <TextView
-                    android:id="@+id/valueData2"
+                    android:id="@+id/valEconomia"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="XPTO 999999.000000"
+                    android:text="Valor Economia"
                     android:layout_gravity="center"
                     android:gravity="right"
-                    android:layout_marginHorizontal="40sp"/>
+                    android:layout_marginHorizontal="10sp"/>
             </LinearLayout>
 
             <LinearLayout
@@ -112,16 +112,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="DATA 3: "/>
+                    android:text="Extra???? "/>
                 <TextView
-                    android:id="@+id/valueData3"
+                    android:id="@+id/valMediana"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
-                    android:text="XPTO 999.000000"
+                    android:text="Algum valor extra"
                     android:layout_gravity="center"
                     android:gravity="right"
-                    android:layout_marginHorizontal="40sp"/>
+                    android:layout_marginHorizontal="10sp"/>
             </LinearLayout>
 
         </RelativeLayout>
