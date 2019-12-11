@@ -1,0 +1,130 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardUnit"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/titleFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:fontFamily="@font/source_sans"
+            android:text="Unit Dash Board"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/titleCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleFrag"
+            android:fontFamily="@font/source_sans"
+            android:textSize="24sp"
+            android:text="Select company"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"/>
+
+        <Spinner
+            android:id="@+id/spinnerDash"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:scrollbarSize="30sp"
+            android:layout_below="@+id/titleCompany"
+            android:entries="@array/country_arrays">
+
+        </Spinner>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/viewGraph"
+            android:layout_width="50mm"
+            android:layout_height="50mm"
+            android:layout_below="@+id/spinnerDash"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="50sp"/>
+
+        <LinearLayout
+            android:id="@+id/dataLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/viewGraph">
+            <TextView
+                android:id="@+id/titleData1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans"
+                android:textSize="20sp"
+                android:text="DATA 1: "/>
+            <TextView
+                android:id="@+id/valueData1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans"
+                android:textSize="20sp"
+                android:text="XPTO 400000.000000"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:layout_marginHorizontal="40sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dataLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/dataLine1">
+            <TextView
+                android:id="@+id/titleData2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans"
+                android:textSize="20sp"
+                android:text="DATA 2: "/>
+            <TextView
+                android:id="@+id/valueData2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans"
+                android:textSize="20sp"
+                android:text="XPTO 999999.000000"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:layout_marginHorizontal="40sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dataLine3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/dataLine2">
+            <TextView
+                android:id="@+id/titleData3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans"
+                android:textSize="20sp"
+                android:text="DATA 3: "/>
+            <TextView
+                android:id="@+id/valueData3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans"
+                android:textSize="20sp"
+                android:text="XPTO 999.000000"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:layout_marginHorizontal="40sp"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</FrameLayout>
