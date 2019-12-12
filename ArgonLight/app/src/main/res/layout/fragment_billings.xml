@@ -15,137 +15,16 @@
             android:id="@+id/txtTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="BILLING SESSION"
+            android:text="FATURAS"
             android:textSize="24sp"
             android:gravity="center"/>
 
+        <ListView
+            android:id="@+id/listBills"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/bill_cell_list" />
 
-        <LinearLayout
-            android:id="@+id/billingLine1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@+id/txtTitle">
-            <TextView
-                android:id="@+id/titleData1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="Bill 1: "/>
-            <TextView
-                android:id="@+id/billValue"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="XPTO 400000.000000"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-            <TextView
-                android:id="@+id/statusData"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="OK"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/billingLine2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@+id/billingLine1">
-            <TextView
-                android:id="@+id/titleData2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="Bill 1: "/>
-            <TextView
-                android:id="@+id/billValue2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="XPTO 400000.000000"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-            <TextView
-                android:id="@+id/statusData2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="PENDING"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/billingLine3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@+id/billingLine2">
-            <TextView
-                android:id="@+id/titleData3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="Bill 1: "/>
-            <TextView
-                android:id="@+id/billValue3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="XPTO 400000.000000"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-            <TextView
-                android:id="@+id/statusData3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="OK"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/billingLine4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@+id/billingLine3">
-            <TextView
-                android:id="@+id/titleData4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="Bill 1: "/>
-            <TextView
-                android:id="@+id/billValue4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="XPTO 400000.000000"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-            <TextView
-                android:id="@+id/statusData4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:text="PENDING"
-                android:layout_gravity="center"
-                android:gravity="right"
-                android:layout_marginHorizontal="5sp"/>
-        </LinearLayout>
     </RelativeLayout>
 
 

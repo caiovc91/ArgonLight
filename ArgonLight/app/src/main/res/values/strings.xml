@@ -4,7 +4,10 @@
     <string name="close">Close</string>
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+    &lt;a href="http://www.google.com">Forgot Password&lt;/a>
+    &lt;a href="http://www.google.com">Forgot Create Account&lt;/a>
+    <string name="forgotpass"><a href="https://www.google.com/">Forgot Password</a></string>
+    <string name="signup"><a href="http://w3schools.com">Create Account</a></string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

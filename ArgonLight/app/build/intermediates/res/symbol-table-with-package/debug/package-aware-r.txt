@@ -664,6 +664,7 @@ color foreground_material_light
 color goldOne
 color goldThree
 color goldTwo
+color green_emission
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color material_blue_grey_800
@@ -1164,16 +1165,9 @@ id async
 id auto
 id barrier
 id beginning
-id billValue
-id billValue2
-id billValue3
-id billValue4
+id billCode
 id billing
 id billingFrame
-id billingLine1
-id billingLine2
-id billingLine3
-id billingLine4
 id blocking
 id bottom
 id btnLogin
@@ -1245,6 +1239,7 @@ id left
 id line1
 id line3
 id lineChart
+id listBills
 id listMode
 id list_item
 id lvMessages
@@ -1329,10 +1324,6 @@ id src_in
 id src_over
 id standard
 id start
-id statusData
-id statusData2
-id statusData3
-id statusData4
 id status_bar_latest_event_content
 id stretch
 id submenuarrow
@@ -1363,7 +1354,6 @@ id titleCompany
 id titleData1
 id titleData2
 id titleData3
-id titleData4
 id titleDividerNoCustom
 id titleFrag
 id title_template
@@ -1375,6 +1365,9 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id txtForgotPass
+id txtSignup
+id txtStatus
 id txtTitle
 id txtValues
 id unchecked
@@ -1388,9 +1381,9 @@ id usr
 id valCarbon
 id valEconomia
 id valMediana
+id valUnitMedia
 id valueData1
 id valueData2
-id valueData3
 id view_offset_helper
 id visible
 id withText
@@ -1452,6 +1445,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_basic_drawer
 layout activity_main
+layout bill_cell_list
 layout custom_dialog
 layout custom_marker_view
 layout design_bottom_navigation_item
@@ -1533,10 +1527,10 @@ string character_counter_pattern
 string close
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string forgotpass
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
-string nav_header_desc
 string nav_header_subtitle
 string nav_header_title
 string open
@@ -1546,6 +1540,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
+string signup
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

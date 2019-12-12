@@ -12,12 +12,13 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:fontFamily="@font/source_sans"
-        android:text="LOGS"
+        android:text="MENSAGENS"
         android:textSize="24dp"/>
 
     <ListView
         android:id="@+id/lvMessages"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/listcell" />
 
 </FrameLayout>

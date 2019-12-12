@@ -29,10 +29,12 @@ import android.graphics.DashPathEffect;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -46,11 +48,14 @@ public class BasicDrawerActivity extends AppCompatActivity implements Navigation
     private ArrayList<Fragment> fragsList;
     private LineChart chart;
 
+    //variaveis de tela
+    private String strVal_total, strVal_emi_total, strVal_med_total;
+    private TextView txtValor_total, txtValor_emissao_total, txtValor_media_total;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_basic_drawer);
-
 
         mDrawerLayout = findViewById(R.id.mainDrawer);
         mToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open, R.string.close);
@@ -66,6 +71,10 @@ public class BasicDrawerActivity extends AppCompatActivity implements Navigation
 
         gen_charts();
 
+        txtValor_total = findViewById(R.id.valEconomia);
+        txtValor_emissao_total = findViewById(R.id.valCarbon);
+        txtValor_media_total = findViewById(R.id.valMediana);
+        set_infos();
 
     }
     public Fragment getItem(int position) {
@@ -162,19 +171,19 @@ public class BasicDrawerActivity extends AppCompatActivity implements Navigation
 
         ArrayList<Entry> yVal = new ArrayList<>();
 
-        yVal.add(new Entry(0, 748.2f));
-        yVal.add(new Entry(1, 1394.6f));
-        yVal.add(new Entry(2, 3458.12f));
-        yVal.add(new Entry(3, 9994.34f));
-        yVal.add(new Entry(4, 1200.2f));
-        yVal.add(new Entry(5, 3222.2f));
-        yVal.add(new Entry(6, 427.2f));
-        yVal.add(new Entry(7, 1500.2f));
-        yVal.add(new Entry(8, 5000));
-        yVal.add(new Entry(9, 12000));
-        yVal.add(new Entry(10, 2333.45f));
-        yVal.add(new Entry(11, 222222.45f));
-        yVal.add(new Entry(12, 222222.45f));
+        yVal.add(new Entry(0, 250.32f));
+        yVal.add(new Entry(1, 375.65f));
+        yVal.add(new Entry(2, 1375.57f));
+        yVal.add(new Entry(3, 2394.87f));
+        yVal.add(new Entry(4, 3219.47f));
+        yVal.add(new Entry(5, 4219.43f));
+        yVal.add(new Entry(6, 5230.20f));
+        yVal.add(new Entry(7, 6198.22f));
+        yVal.add(new Entry(8, 7192));
+        yVal.add(new Entry(9, 8140));
+        yVal.add(new Entry(10, 9410.32f));
+        yVal.add(new Entry(11, 10130.32f));
+        yVal.add(new Entry(12, 12000.45f));
 
         LineDataSet setOne = new LineDataSet(yVal, "Economia"); //legenda e criacao da linha
         setOne.setFillAlpha(110);
@@ -184,5 +193,19 @@ public class BasicDrawerActivity extends AppCompatActivity implements Navigation
         LineData data = new LineData(dataSets);
 
         chart.setData(data);
+    }
+
+    public void set_infos(){
+        double val_1, val_2, val_3;
+        val_1 = 42000.37;
+        val_2 = 5700.3;
+        val_3 = (val_2/val_1);
+
+
+        txtValor_total.setText("$" + new DecimalFormat("#.##").format(val_1));
+        txtValor_emissao_total.setTextColor(getResources().getColor(R.color.green_emission));
+        txtValor_emissao_total.setText(new DecimalFormat("#.##").format(val_2) + "Kg");
+        txtValor_media_total.setText(new DecimalFormat("#.##").format(val_3) + "[R$/kg]");
+
     }
 }

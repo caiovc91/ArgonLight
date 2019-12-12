@@ -14,8 +14,9 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:fontFamily="@font/source_sans"
-            android:text="Unit Dash Board"
-            android:layout_gravity="center_horizontal"/>
+            android:text="Controle de Unidades de Consumo"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"/>
         <TextView
             android:id="@+id/titleCompany"
             android:layout_width="wrap_content"
@@ -23,7 +24,7 @@
             android:layout_below="@+id/titleFrag"
             android:fontFamily="@font/source_sans"
             android:textSize="24sp"
-            android:text="Select company"
+            android:text="Unidades Cadastradas"
             android:layout_gravity="center_horizontal"
             android:gravity="center"/>
 
@@ -56,17 +57,17 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/source_sans"
                 android:textSize="20sp"
-                android:text="DATA 1: "/>
+                android:text="Redução CO2: "/>
             <TextView
                 android:id="@+id/valueData1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/source_sans"
                 android:textSize="20sp"
-                android:text="XPTO 400000.000000"
+                android:text="valor CO2"
                 android:layout_gravity="center"
                 android:gravity="right"
-                android:layout_marginHorizontal="40sp"/>
+                android:layout_marginHorizontal="10sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -81,17 +82,17 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/source_sans"
                 android:textSize="20sp"
-                android:text="DATA 2: "/>
+                android:text="Economia Prevista: "/>
             <TextView
                 android:id="@+id/valueData2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/source_sans"
                 android:textSize="20sp"
-                android:text="XPTO 999999.000000"
+                android:text="Valor Contrato"
                 android:layout_gravity="center"
                 android:gravity="right"
-                android:layout_marginHorizontal="40sp"/>
+                android:layout_marginHorizontal="10sp"/>
         </LinearLayout>
 
         <LinearLayout
@@ -108,15 +109,15 @@
                 android:textSize="20sp"
                 android:text="DATA 3: "/>
             <TextView
-                android:id="@+id/valueData3"
+                android:id="@+id/valUnitMedia"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/source_sans"
                 android:textSize="20sp"
-                android:text="XPTO 999.000000"
+                android:text="Valor media CO2"
                 android:layout_gravity="center"
                 android:gravity="right"
-                android:layout_marginHorizontal="40sp"/>
+                android:layout_marginHorizontal="10sp"/>
         </LinearLayout>
 
     </RelativeLayout>
