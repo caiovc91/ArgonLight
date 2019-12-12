@@ -3,31 +3,31 @@
 3    package="caio.systems.argonlight.test" >
 4
 5    <uses-sdk
-5-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:5:5-74
+5-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:5:5-74
 6        android:minSdkVersion="19"
-6-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:5:15-41
+6-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:5:15-41
 7        android:targetSdkVersion="29" />
-7-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:5:42-71
+7-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:11:5-15:73
+9-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:11:5-15:73
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:11:22-76
+10-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:14:22-52
+11-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:13:22-53
+12-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:13:22-53
 13        android:label="Tests for caio.systems.argonlight"
-13-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:15:22-71
+13-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:15:22-71
 14        android:targetPackage="caio.systems.argonlight" />
-14-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:12:22-69
+14-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:12:22-69
 15
 16    <application android:debuggable="true" >
-16-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:7:5-9:19
-16-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:7:18-43
+16-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:7:5-9:19
+16-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:7:18-43
 17        <uses-library android:name="android.test.runner" />
-17-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:8:9-60
-17-->D:\PROJECTS\GIT\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger4588647313025472267.xml:8:23-57
+17-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:8:9-60
+17-->D:\git_training\ArgonLight\ArgonLight\app\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger3743981185335929319.xml:8:23-57
 18    </application>
 19
 20</manifest>

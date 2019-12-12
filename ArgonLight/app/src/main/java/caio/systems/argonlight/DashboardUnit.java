@@ -30,40 +30,6 @@ public class DashboardUnit extends Fragment {
         // Inflate the layout for this fragment
         //gen_charts();
 
-        chart = getView().findViewById(R.id.chartUnit);
-
-        chart.setTouchEnabled(true);
-        chart.setPinchZoom(false);
-        MyMarkerView mv = new MyMarkerView(getActivity().getApplicationContext(), R.layout.custom_marker_view);
-        mv.setChartView(chart);
-        chart.setMarker(mv);
-
-        ArrayList<Entry> yVal = new ArrayList<>();
-
-        yVal.add(new Entry(0, 748.2f));
-        yVal.add(new Entry(1, 1394.6f));
-        yVal.add(new Entry(2, 3458.12f));
-        yVal.add(new Entry(3, 9994.34f));
-        yVal.add(new Entry(4, 1200.2f));
-        yVal.add(new Entry(5, 3222.2f));
-        yVal.add(new Entry(6, 427.2f));
-        yVal.add(new Entry(7, 1500.2f));
-        yVal.add(new Entry(8, 5000));
-        yVal.add(new Entry(9, 12000));
-        yVal.add(new Entry(10, 2333.45f));
-        yVal.add(new Entry(11, 222222.45f));
-        yVal.add(new Entry(12, 222222.45f));
-
-        LineDataSet setOne = new LineDataSet(yVal, "Economia"); //legenda e criacao da linha
-        setOne.setFillAlpha(110);
-
-        ArrayList<ILineDataSet> dataSets = new ArrayList<>();
-        dataSets.add(setOne);
-        LineData data = new LineData(dataSets);
-
-        chart.setData(data);
-
-
         return inflater.inflate(R.layout.fragment_dashboard_unit, container, false);
 
     }
