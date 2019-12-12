@@ -1183,6 +1183,7 @@ id center
 id center_horizontal
 id center_vertical
 id chains
+id chartUnit
 id checkbox
 id checked
 id chronometer
@@ -1390,7 +1391,6 @@ id valMediana
 id valueData1
 id valueData2
 id valueData3
-id viewGraph
 id view_offset_helper
 id visible
 id withText
@@ -1453,6 +1453,7 @@ layout abc_tooltip
 layout activity_basic_drawer
 layout activity_main
 layout custom_dialog
+layout custom_marker_view
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

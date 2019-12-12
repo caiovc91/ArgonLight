@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\git_training\\ArgonLight\\ArgonLight\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "D:\\PROJECTS\\GIT\\ArgonLight\\ArgonLight\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ca40044411\\.gradle\\caches\\transforms-2\\files-2.1\\a0840b8ab66aebdbdb38aed774aaec44\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Caio\\.gradle\\caches\\transforms-2\\files-2.1\\a0840b8ab66aebdbdb38aed774aaec44\\material-1.0.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ca40044411\\.gradle\\caches\\transforms-2\\files-2.1\\31fa4554576cab2c14d4e5f0d85133c5\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Caio\\.gradle\\caches\\transforms-2\\files-2.1\\31fa4554576cab2c14d4e5f0d85133c5\\appcompat-1.1.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

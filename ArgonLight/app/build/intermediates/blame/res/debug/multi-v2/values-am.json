@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\git_training\\ArgonLight\\ArgonLight\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
+            "outputFile": "D:\\PROJECTS\\GIT\\ArgonLight\\ArgonLight\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ca40044411\\.gradle\\caches\\transforms-2\\files-2.1\\31fa4554576cab2c14d4e5f0d85133c5\\appcompat-1.1.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Caio\\.gradle\\caches\\transforms-2\\files-2.1\\31fa4554576cab2c14d4e5f0d85133c5\\appcompat-1.1.0\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ca40044411\\.gradle\\caches\\transforms-2\\files-2.1\\16b815edf023954d253753007cf3f882\\core-1.1.0\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\Caio\\.gradle\\caches\\transforms-2\\files-2.1\\16b815edf023954d253753007cf3f882\\core-1.1.0\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

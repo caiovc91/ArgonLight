@@ -15,8 +15,7 @@
             android:textSize="24sp"
             android:fontFamily="@font/source_sans"
             android:text="Unit Dash Board"
-            android:layout_gravity="center_horizontal"
-            android:gravity="center"/>
+            android:layout_gravity="center_horizontal"/>
         <TextView
             android:id="@+id/titleCompany"
             android:layout_width="wrap_content"
@@ -38,21 +37,19 @@
 
         </Spinner>
 
-        <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/viewGraph"
-            android:layout_width="50mm"
-            android:layout_height="50mm"
-            android:layout_below="@+id/spinnerDash"
-            android:layout_gravity="center_horizontal"
-            android:layout_centerHorizontal="true"
-            android:layout_marginVertical="50sp"/>
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chartUnit"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_below="@id/spinnerDash"
+            android:layout_centerHorizontal="true"/>
 
         <LinearLayout
             android:id="@+id/dataLine1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_below="@+id/viewGraph">
+            android:layout_below="@+id/chartUnit">
             <TextView
                 android:id="@+id/titleData1"
                 android:layout_width="wrap_content"
