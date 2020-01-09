@@ -25,8 +25,8 @@
 17-->D:\git_training\ArgonLight\ArgonTest\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->D:\git_training\ArgonLight\ArgonTest\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->D:\git_training\ArgonLight\ArgonTest\app\src\main\AndroidManifest.xml:11:9-40
+19        android:theme="@style/AppTheme.NoActionBar" >
+19-->D:\git_training\ArgonLight\ArgonTest\app\src\main\AndroidManifest.xml:11:9-52
 20        <activity android:name="caio.systems.argontest.MenuActivity" />
 20-->D:\git_training\ArgonLight\ArgonTest\app\src\main\AndroidManifest.xml:12:9-59
 20-->D:\git_training\ArgonLight\ArgonTest\app\src\main\AndroidManifest.xml:12:19-47
