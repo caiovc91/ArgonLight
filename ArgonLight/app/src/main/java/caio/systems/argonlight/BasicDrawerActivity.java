@@ -88,7 +88,7 @@ public class BasicDrawerActivity extends AppCompatActivity implements Navigation
         fragment.setArguments(args);
         return fragment;
     }
-   public boolean onOptionsItemSelected(MenuItem item){
+    public boolean onOptionsItemSelected(MenuItem item){
         mDrawerLayout.closeDrawer(GravityCompat.START);
         if(mToggle.onOptionsItemSelected(item)){
             return true;
