@@ -3,44 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainFragment">
+    app:startDestination="@id/homeMainSlider">
 
     <fragment
-        android:id="@+id/anotherFragment"
-        android:name="caio.systems.argontest.AnotherFragment"
-        android:label="fragment_another"
-        tools:layout="@layout/fragment_another" />
-    <fragment
-        android:id="@+id/fragmentThree"
-        android:name="caio.systems.argontest.FragmentThree"
-        android:label="fragment_fragment_three"
-        tools:layout="@layout/fragment_fragment_three" />
-    <fragment
-        android:id="@+id/fragmentFour"
-        android:name="caio.systems.argontest.FragmentFour"
-        android:label="fragment_fragment_four"
-        tools:layout="@layout/fragment_fragment_four" />
-    <fragment
-        android:id="@+id/testFragment"
-        android:name="caio.systems.argontest.TestFragment"
-        android:label="fragment_test"
-        tools:layout="@layout/fragment_test" />
-    <fragment
-        android:id="@+id/mainFragment"
-        android:name="caio.systems.argontest.MainFragment"
-        android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        android:id="@+id/homeMainSlider"
+        android:name="caio.systems.argontest.HomeMainSlider"
+        android:label="fragment_home_main_slider"
+        tools:layout="@layout/fragment_home_main_slider" >
         <action
-            android:id="@+id/action_mainFragment_to_testFragment"
-            app:destination="@id/testFragment" />
-        <action
-            android:id="@+id/action_mainFragment_to_anotherFragment"
-            app:destination="@id/anotherFragment" />
-        <action
-            android:id="@+id/action_mainFragment_to_fragmentThree"
-            app:destination="@id/fragmentThree" />
-        <action
-            android:id="@+id/action_mainFragment_to_fragmentFour"
-            app:destination="@id/fragmentFour" />
+            android:id="@+id/action_homeMainSlider_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="caio.systems.argontest.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
